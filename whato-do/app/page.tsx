@@ -63,7 +63,7 @@ const App = () => {
           color: "green",
         }}
       >
-        Geeksforgeeks
+        Whato-do
       </div>
       <div
         style={{
@@ -86,6 +86,7 @@ const App = () => {
             flexGrow: "1",
             borderRadius: "4px",
             border: "1px solid #ccc",
+            color: "black",
           }}
           placeholder="Add item..."
           value={userInput}
@@ -120,7 +121,9 @@ const App = () => {
                 marginBottom: "10px",
               }}
             >
-              <span style={{ fontSize: "1.2rem", flexGrow: "1" }}>
+              <span
+                style={{ fontSize: "1.2rem", flexGrow: "1", color: "black" }}
+              >
                 {item.value}
               </span>
               <span>
@@ -156,7 +159,7 @@ const App = () => {
           ))
         ) : (
           <div
-            style={{ textAlign: "center", fontSize: "1.2rem", color: "#777" }}
+            style={{ textAlign: "center", fontSize: "1.2rem", color: "black" }}
           >
             No items in the list
           </div>
